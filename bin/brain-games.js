@@ -3,4 +3,6 @@
 /* eslint-disable no-console */
 import askUser from '../src/cli.js';
 
-askUser();
+console.log('Welcome to the Brain Games!');
+const answer = askUser('May I have your name? ');
+console.log(`Hello, ${answer}!`);
