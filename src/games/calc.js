@@ -2,7 +2,7 @@
 /* eslint-disable no-console */
 export const rulesOfGame = 'What is the result of the expression?';
 
-export const calc = () => {
+export const game = () => {
   const mathOperatorsList = ['+', '-', '*'];
   const numberOfOperator = Math.round(Math.random() * 2);
   const sign = mathOperatorsList[numberOfOperator];

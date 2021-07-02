@@ -12,7 +12,7 @@ const buildMatch = (rulesOfGame, game) => {
   while (counter < numberOfMatches) {
     const [question, correctAnswer] = game();
     console.log(`Question: ${question}`);
-    const userAnswer = askUser();
+    const userAnswer = askUser('Your answer: ');
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
       counter += 1;

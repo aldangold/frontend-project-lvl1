@@ -2,6 +2,6 @@
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
 import buildMatch from '../src/index.js';
-import { gcd, rulesOfGame } from '../src/games/gcd.js';
+import { game, rulesOfGame } from '../src/games/gcd.js';
 
-buildMatch(rulesOfGame, gcd);
+buildMatch(rulesOfGame, game);
