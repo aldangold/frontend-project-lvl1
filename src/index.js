@@ -5,7 +5,7 @@ import askUser from './cli.js';
 const buildMatch = (rulesOfGame, game) => {
   console.log('Welcome to the Brain Games!');
   const userName = askUser('May I have your name? ');
-  console.log(`Hello, ${userName} !`);
+  console.log(`Hello, ${userName}!`);
   console.log(rulesOfGame);
   const numberOfMatches = 3;
   let counter = 0;
