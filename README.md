@@ -50,17 +50,17 @@
 		<a href="https://asciinema.org/a/QzIGuQ0B5qSnMFyazc1E1yLRK" target="_blank"><img src="https://asciinema.org/a/QzIGuQ0B5qSnMFyazc1E1yLRK.svg" width="80%"/></a>
 		</p>
 <h4> brain-gcd - game on determining the greatest common divisor</h4>
-	<pre>$brain-gcd</pre>
+	<pre>$npx brain-gcd</pre>
 		<p align="center">
 		<a href="https://asciinema.org/a/Q0s48bBH8tX0qlh3yalBML2dO" target="_blank"><img src="https://asciinema.org/a/Q0s48bBH8tX0qlh3yalBML2dO.svg" width="80%"/></a>
 		</p>
 <h4> brain-progression - game on determining hidden number in arithmetic progression</h4>
-	<pre>$brain-progression</pre>
+	<pre>$npx brain-progression</pre>
 		<p align="center">
 		<a href="https://asciinema.org/a/ytszA95dG6dg9DRNrl8U2uIYW" target="_blank"><img src="https://asciinema.org/a/ytszA95dG6dg9DRNrl8U2uIYW.svg" width="80%"/></a>
 		</p>
 <h4> brain-prime - game on determining of prime number </h4>
-	<pre>$brain-prime</pre>
+	<pre>$npx brain-prime</pre>
 		<p align="center">
 		<a href="https://asciinema.org/a/yJ3DVu2aMU8nuj97sEbsP4oLk" target="_blank"><img src="https://asciinema.org/a/yJ3DVu2aMU8nuj97sEbsP4oLk.svg" width="80%"/></a>
 		</p>
