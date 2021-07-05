@@ -1,4 +1,5 @@
-/* eslint-disable no-console */
+import getRandomInRange from '../tools.js';
+
 export const rulesOfGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (question) => {
@@ -17,7 +18,7 @@ const isPrime = (question) => {
 };
 
 export const game = () => {
-  const question = Math.round(Math.random() * 200);
+  const question = getRandomInRange(0, 200);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };

@@ -1,8 +1,9 @@
-/* eslint-disable no-console */
+import getRandomInRange from '../tools.js';
+
 export const rulesOfGame = 'Answer "yes" if number even otherwise answer "no".';
 
 export const game = () => {
-  const question = Math.round(Math.random() * 100);
+  const question = getRandomInRange(0, 100);
   const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
   return [question, correctAnswer];
 };

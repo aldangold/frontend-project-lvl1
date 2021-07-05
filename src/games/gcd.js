@@ -1,4 +1,5 @@
-/* eslint-disable no-console */
+import getRandomInRange from '../tools.js';
+
 export const rulesOfGame = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (num1, num2) => {
@@ -9,8 +10,8 @@ const gcd = (num1, num2) => {
 };
 
 export const game = () => {
-  const number1 = Math.round(Math.random() * 100);
-  const number2 = Math.round(Math.random() * 100);
+  const number1 = getRandomInRange(0, 100);
+  const number2 = getRandomInRange(0, 100);
   const question = `${number1} ${number2}`;
   const correctAnswer = String(gcd(number1, number2));
   return [question, correctAnswer];

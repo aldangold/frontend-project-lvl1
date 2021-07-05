@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-console */
 import askUser from './cli.js';
 
 const buildMatch = (rulesOfGame, game) => {
