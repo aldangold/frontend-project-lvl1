@@ -27,8 +27,7 @@
 		  <li> 
 		  	<p>Installation</p>
 		  	</li>
-		  	<pre>$git clone https://github.com/aldangold/frontend-project-lvl1.git</br>$make install
-			  </pre>
+		  	<pre>$git clone https://github.com/aldangold/frontend-project-lvl1.git</br>$make install</pre>
 		  <li> <p>Check of launch </p>
 		  	</li>
 		  	<pre>$npx brain-games</pre>
