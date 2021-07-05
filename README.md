@@ -27,8 +27,8 @@
 		  <li> 
 		  	<p>Installation</p>
 		  	</li>
-		  	<pre>$git clone https://github.com/aldangold/frontend-project-lvl1.git</pre>
-			<pre>$make install</pre>
+		  	<pre>$git clone https://github.com/aldangold/frontend-project-lvl1.git</br>$make install
+			  </pre>
 		  <li> <p>Check of launch </p>
 		  	</li>
 		  	<pre>$npx brain-games</pre>
@@ -42,25 +42,25 @@
 <h4> brain-even - game on determining of even number</h4>
 	<pre>$npx brain-even</pre>
 		<p align="center">
-		<a href="https://asciinema.org/a/QHeNdMvE128Jnpfo1OQzpIUcy" target="_blank"><img src="https://asciinema.org/a/QHeNdMvE128Jnpfo1OQzpIUcy.svg" width="80%"/></a>
+		<a href="https://asciinema.org/a/aBZCALEoHRha1bpbeperz48Hv" target="_blank"><img src="https://asciinema.org/a/aBZCALEoHRha1bpbeperz48Hv.svg" width="80%"/></a>
 		</p>
 <h4> brain-calc - game on the ability of calculations without a calculator</h4>
 	<pre>$npx brain-calc</pre>
 		<p align="center">
-		<a href="https://asciinema.org/a/QzIGuQ0B5qSnMFyazc1E1yLRK" target="_blank"><img src="https://asciinema.org/a/QzIGuQ0B5qSnMFyazc1E1yLRK.svg" width="80%"/></a>
+		<a href="https://asciinema.org/a/VMWq0xsxkfSHhbs3fCXxB5OU1" target="_blank"><img src="https://asciinema.org/a/VMWq0xsxkfSHhbs3fCXxB5OU1.svg" width="80%"/></a>
 		</p>
 <h4> brain-gcd - game on determining the greatest common divisor</h4>
 	<pre>$npx brain-gcd</pre>
 		<p align="center">
-		<a href="https://asciinema.org/a/Q0s48bBH8tX0qlh3yalBML2dO" target="_blank"><img src="https://asciinema.org/a/Q0s48bBH8tX0qlh3yalBML2dO.svg" width="80%"/></a>
+		<a href="https://asciinema.org/a/rFXpV07brZIuhZGzePD3naoaJ" target="_blank"><img src="https://asciinema.org/a/rFXpV07brZIuhZGzePD3naoaJ.svg" width="80%"/></a>
 		</p>
 <h4> brain-progression - game on determining hidden number in arithmetic progression</h4>
 	<pre>$npx brain-progression</pre>
 		<p align="center">
-		<a href="https://asciinema.org/a/ytszA95dG6dg9DRNrl8U2uIYW" target="_blank"><img src="https://asciinema.org/a/ytszA95dG6dg9DRNrl8U2uIYW.svg" width="80%"/></a>
+		<a href="https://asciinema.org/a/aCPqMDvvamdTsX9Uny3h8RnQE" target="_blank"><img src="https://asciinema.org/a/aCPqMDvvamdTsX9Uny3h8RnQE.svg" width="80%"/></a>
 		</p>
 <h4> brain-prime - game on determining of prime number </h4>
 	<pre>$npx brain-prime</pre>
 		<p align="center">
-		<a href="https://asciinema.org/a/yJ3DVu2aMU8nuj97sEbsP4oLk" target="_blank"><img src="https://asciinema.org/a/yJ3DVu2aMU8nuj97sEbsP4oLk.svg" width="80%"/></a>
+		<a href="https://asciinema.org/a/6vCoP3X0AJysFcF0TkQm7dHZH" target="_blank"><img src="https://asciinema.org/a/6vCoP3X0AJysFcF0TkQm7dHZH.svg" width="80%"/></a>
 		</p>
