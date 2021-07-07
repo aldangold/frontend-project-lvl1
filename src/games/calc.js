@@ -1,4 +1,3 @@
-/* eslint-disable no-eval */
 import getRandomInRange from '../tools.js';
 
 export const rulesOfGame = 'What is the result of the expression?';
