@@ -2,22 +2,34 @@ import getRandomInRange from '../tools.js';
 
 export const rulesOfGame = 'What number is missing in the progression?';
 
-const game = () => {
+const getProgression = (lengthOfProgression = 10) => {
+  const progression = [];
   const startValue = getRandomInRange(0, 50);
   const step = getRandomInRange(1, 10);
-  const lengthOfProgression = 10;
-  const hiddenIndex = getRandomInRange(0, lengthOfProgression - 1);
-  const progression = [];
-  let correctAnswer;
   for (let i = 0; i < lengthOfProgression; i += 1) {
-    if (i !== hiddenIndex) {
-      progression.push(startValue + i * step);
+    progression.push(startValue + i * step);
+  }
+  return progression;
+};
+
+const hideElement = (array, index) => {
+  const result = [];
+  for (let i = 0; i < array.length; i += 1) {
+    if (i !== index) {
+      result[i] = array[i];
     } else {
-      progression.push('..');
-      correctAnswer = String(startValue + i * step);
+      result[i] = '..';
     }
   }
-  const question = progression.join(' ');
+  return result;
+};
+
+const game = () => {
+  const progression = getProgression();
+  const hiddenIndex = getRandomInRange(0, progression.length - 1);
+  const questionArray = hideElement(progression, hiddenIndex);
+  const correctAnswer = String(progression[hiddenIndex]);
+  const question = questionArray.join(' ');
   return [question, correctAnswer];
 };
 
