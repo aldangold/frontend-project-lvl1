@@ -3,7 +3,7 @@ import getRandomInRange from '../tools.js';
 
 export const rulesOfGame = 'What is the result of the expression?';
 
-export const game = () => {
+const game = () => {
   const mathOperatorsList = ['+', '-', '*'];
   const numberOfOperator = getRandomInRange(0, 2);
   const sign = mathOperatorsList[numberOfOperator];
@@ -13,3 +13,5 @@ export const game = () => {
   const correctAnswer = String(eval(question));
   return [question, correctAnswer];
 };
+
+export default game;

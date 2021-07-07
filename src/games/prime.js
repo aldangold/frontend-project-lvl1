@@ -17,8 +17,10 @@ const isPrime = (question) => {
   return true;
 };
 
-export const game = () => {
+const game = () => {
   const question = getRandomInRange(0, 200);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
+
+export default game;

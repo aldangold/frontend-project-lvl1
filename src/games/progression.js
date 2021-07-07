@@ -2,7 +2,7 @@ import getRandomInRange from '../tools.js';
 
 export const rulesOfGame = 'What number is missing in the progression?';
 
-export const game = () => {
+const game = () => {
   const startValue = getRandomInRange(0, 50);
   const step = getRandomInRange(1, 10);
   const lengthOfProgression = 10;
@@ -20,3 +20,5 @@ export const game = () => {
   const question = progression.join(' ');
   return [question, correctAnswer];
 };
+
+export default game;

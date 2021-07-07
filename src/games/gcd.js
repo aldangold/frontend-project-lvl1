@@ -9,10 +9,12 @@ const gcd = (num1, num2) => {
   return gcd(num2, num1 % num2);
 };
 
-export const game = () => {
+const game = () => {
   const number1 = getRandomInRange(0, 100);
   const number2 = getRandomInRange(0, 100);
   const question = `${number1} ${number2}`;
   const correctAnswer = String(gcd(number1, number2));
   return [question, correctAnswer];
 };
+
+export default game;
