@@ -1,6 +1,7 @@
 import getRandomInRange from '../tools.js';
+import buildMatch from '../index.js';
 
-export const rulesOfGame = 'What number is missing in the progression?';
+const rulesOfGame = 'What number is missing in the progression?';
 
 const getProgression = (lengthOfProgression = 10) => {
   const progression = [];
@@ -33,4 +34,4 @@ const game = () => {
   return [question, correctAnswer];
 };
 
-export default game;
+export default () => buildMatch(rulesOfGame, game);

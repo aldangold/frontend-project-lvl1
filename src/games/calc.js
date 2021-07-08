@@ -1,6 +1,7 @@
 import getRandomInRange from '../tools.js';
+import buildMatch from '../index.js';
 
-export const rulesOfGame = 'What is the result of the expression?';
+const rulesOfGame = 'What is the result of the expression?';
 
 const add = (number1, number2) => number1 + number2;
 const sub = (number1, number2) => number1 - number2;
@@ -22,4 +23,4 @@ const game = () => {
   return [question, correctAnswer];
 };
 
-export default game;
+export default () => buildMatch(rulesOfGame, game);

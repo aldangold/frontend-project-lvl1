@@ -1,6 +1,7 @@
 import getRandomInRange from '../tools.js';
+import buildMatch from '../index.js';
 
-export const rulesOfGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const rulesOfGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (question) => {
   if (question < 2) {
@@ -23,4 +24,4 @@ const game = () => {
   return [question, correctAnswer];
 };
 
-export default game;
+export default () => buildMatch(rulesOfGame, game);

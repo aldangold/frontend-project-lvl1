@@ -1,6 +1,7 @@
 import getRandomInRange from '../tools.js';
+import buildMatch from '../index.js';
 
-export const rulesOfGame = 'Find the greatest common divisor of given numbers.';
+const rulesOfGame = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (num1, num2) => {
   if (!num2) {
@@ -17,4 +18,4 @@ const game = () => {
   return [question, correctAnswer];
 };
 
-export default game;
+export default () => buildMatch(rulesOfGame, game);

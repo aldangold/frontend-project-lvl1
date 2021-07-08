@@ -1,11 +1,14 @@
 import getRandomInRange from '../tools.js';
+import buildMatch from '../index.js';
 
-export const rulesOfGame = 'Answer "yes" if number even otherwise answer "no".';
+const rulesOfGame = 'Answer "yes" if number even otherwise answer "no".';
+
+const isEven = (number) => number % 2 === 0;
 
 const game = () => {
   const question = getRandomInRange(0, 100);
-  const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-export default game;
+export default () => buildMatch(rulesOfGame, game);
