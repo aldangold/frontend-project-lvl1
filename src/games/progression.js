@@ -29,9 +29,9 @@ const game = () => {
   const step = getRandomInRange(1, 10);
   const progression = getProgression(startValue, step, lengthOfProgression);
   const hiddenIndex = getRandomInRange(0, progression.length - 1);
-  const progressionForQuestion = hideElement(progression, hiddenIndex);
+  const questionProgression = hideElement(progression, hiddenIndex);
   const correctAnswer = String(progression[hiddenIndex]);
-  const question = progressionForQuestion.join(' ');
+  const question = questionProgression.join(' ');
   return [question, correctAnswer];
 };
 
