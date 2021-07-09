@@ -14,12 +14,12 @@ const operations = [
 ];
 
 const game = () => {
-  const numberOfOperator = getRandomInRange(0, 2);
-  const objOperation = operations[numberOfOperator];
+  const numberOfOperator = getRandomInRange(0, operations.length - 1);
+  const operation = operations[numberOfOperator];
   const number1 = getRandomInRange(0, 100);
   const number2 = getRandomInRange(0, 100);
-  const question = `${number1} ${objOperation.sign} ${number2}`;
-  const correctAnswer = String(objOperation.operator(number1, number2));
+  const question = `${number1} ${operation.sign} ${number2}`;
+  const correctAnswer = String(operation.operator(number1, number2));
   return [question, correctAnswer];
 };
 
